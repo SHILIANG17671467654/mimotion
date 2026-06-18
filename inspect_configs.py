@@ -1,10 +1,10 @@
 # -*- coding: utf8 -*-
-pip3 install requests pycryptodome pytz
 import os
 
 from util import push_util
 from util import aes_help
 
+pip3 install requests pycryptodome pytz
 
 def build_inspect_configs_content(config_param, aes_key_param, pat_param):
     if aes_key_param is None or aes_key_param == "":
