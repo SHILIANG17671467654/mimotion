@@ -1,4 +1,5 @@
 # -*- coding: utf8 -*-
+pip3 install requests pycryptodome pytz
 import os
 
 from util import push_util
